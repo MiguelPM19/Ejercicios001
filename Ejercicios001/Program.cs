@@ -9,10 +9,8 @@
 
             for (int i = 0; i < total; i++)
             {
-                personas[i] = new Persona()
-                {
-                    Name = Console.ReadLine()
-                };
+                personas[i] = new Persona(Console.ReadLine());
+
             }
             for (int i = 0; i < total; i++)
             {
